@@ -1,0 +1,9 @@
+src/
+node_modules/
+rollup.config.mjs
+tsconfig.json
+*.ts
+*.tsx
+.gitignore
+README.md
+aex-grid-component.gif

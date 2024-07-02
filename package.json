@@ -1,0 +1,38 @@
+{
+    "name": "aex-grid-component",
+    "version": "1.0.0",
+    "description": "React component for creating a website with responsive grid items that can expand into multiple columns and rows when clicked.",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/types/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "react",
+        "grid",
+        "component",
+        "alex"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0",
+        "rollup": "^4.18.0",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-typescript2": "^0.36.0",
+        "tsconfig-paths": "^4.2.0",
+        "tslib": "^2.6.3",
+        "typescript": "^5.5.3"
+    }
+}
