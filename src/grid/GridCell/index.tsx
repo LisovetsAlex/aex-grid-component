@@ -32,7 +32,7 @@ function GridCell(props: PGridCell) {
                 zIndex: 100000,
                 transform: `translate(${positionX}px, ${positionY}px)`,
                 animationDelay: `${props.id * 0.03}s`,
-                transition: "all 1s ease",
+                transition: "all 0.2s ease",
                 width: props.isSelected
                     ? props.gridItemData.spanCols > 1 && props.isGridSmall
                         ? `calc(${window.innerWidth}px - ${
