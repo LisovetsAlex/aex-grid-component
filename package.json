@@ -1,6 +1,6 @@
 {
     "name": "aex-grid-component",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "React component for creating a website with responsive grid items that can expand into multiple columns and rows when clicked.",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",

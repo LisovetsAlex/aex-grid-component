@@ -27,7 +27,7 @@ function GridCell(props) {
             zIndex: 100000,
             transform: "translate(".concat(positionX, "px, ").concat(positionY, "px)"),
             animationDelay: "".concat(props.id * 0.03, "s"),
-            transition: "all 1s ease",
+            transition: "all 0.2s ease",
             width: props.isSelected
                 ? props.gridItemData.spanCols > 1 && props.isGridSmall
                     ? "calc(".concat(window.innerWidth, "px - ").concat(getScrollbarWidth() + props.gridData.gap, "px)")
