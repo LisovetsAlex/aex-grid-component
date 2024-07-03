@@ -41,3 +41,5 @@ Grid itself has no styles, it is always centered in the window, transparent and 
 If GridItem is too big for the grid it will expand downwards to compensate the width.
 
 numberOfColumns is min 3, because 2 is reserved for phones. When grid is 2 cols wide, GridItems will always be 50% wide. It looks better that way 😉.
+
+You can apply transition time to GridItem with css to make cells move and expand slower.
