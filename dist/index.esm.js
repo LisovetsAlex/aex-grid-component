@@ -21,7 +21,6 @@ function GridCell(props) {
     var height = props.data.sizeY;
     return (React.createElement("div", { className: props.gridData.itemClassName, style: {
             position: "absolute",
-            cursor: "pointer",
             transform: "translate(".concat(positionX, "px, ").concat(positionY, "px)"),
             width: props.isSelected
                 ? props.gridItemData.spanCols > 1 && props.isGridSmall

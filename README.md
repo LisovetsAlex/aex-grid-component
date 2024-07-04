@@ -1,6 +1,7 @@
 # React Grid Component By Me
 
 ![Gif of the grid in action...](./aex-grid-component.gif)
+https://github.com/LisovetsAlex/aex-grid-component
 
 Create a very cool website, that is made out of grid cells. When a user touches the cell it gets bigger 😳.
 

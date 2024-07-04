@@ -28,7 +28,6 @@ function GridCell(props: PGridCell) {
             className={props.gridData.itemClassName}
             style={{
                 position: "absolute",
-                cursor: "pointer",
                 transform: `translate(${positionX}px, ${positionY}px)`,
                 width: props.isSelected
                     ? props.gridItemData.spanCols > 1 && props.isGridSmall
